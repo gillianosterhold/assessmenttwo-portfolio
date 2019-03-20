@@ -1,0 +1,795 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* HEADER START */
+
+header {
+    background: #353541;
+    height: 540px;
+    color: white;
+    text-align: center;
+}
+
+.row {
+    display: flex; 
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.column-one {
+    margin-left: 18px;
+    width: 30px;
+    height: 25px;
+}
+
+.column-two {
+    text-align: center;
+    color: white;
+    font-size: 10.667px;
+    margin-right: 18px;
+}
+
+.profile-pic {
+    height: 111px;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.profile-line {
+    height: 2px;
+    width: 70px;
+    background: #fb6470;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.name {
+    font-size: 36px;
+    color: white;
+    margin-top: 25px;
+    font-weight: 400;
+}
+
+.bio {
+    margin-bottom: 40px;
+    font-weight: 300;
+    line-height: .5;
+}
+
+.action-links {
+    font-size: 14.667px;
+}
+
+.new-projects {
+    background: #fb6470;
+    padding: 10px 50px 10px 50px;
+    border-radius: 4px;
+}
+
+.awards {
+    background: #32bec7;
+    padding: 10px 70px 10px 70px;
+    border-radius: 4px;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.gulp {
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.netlify {
+    font-size: 9.778px;
+}
+
+/* HEADER END */
+
+/* SKILLS SECTION START */
+
+.skills-summary h2 {
+    padding-top: 100px;
+}
+
+.skills-summary img {
+    height: 229px;
+    width: 229px;
+    padding-top: 20px;
+}
+
+/* SKILLS SECTION END */
+
+/* FIND ME SECTION START */
+
+.find-me {
+    height: 404px;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.find-me h2 {
+    padding-top: 20px;
+}
+
+.section-intros {
+    padding: 25px 0 30px 0;
+    max-width: 445px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-media-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.find-me img {
+    width: auto;
+    height: 64px;
+}
+
+/* FIND ME SECTION END */
+
+/* WORK EXPERIENCE SECTION START */
+
+.work-experience {
+    height: 940px;
+    margin-top: 70px;
+}
+
+.speech-bubble-one {
+	position: relative;
+	background: #7ac943;
+    border-radius: .4em;
+    max-width: 350px;
+    height: 150px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.speech-bubble-one:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 36px solid transparent;
+	border-right-color: #7ac943;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -18px;
+	margin-left: -36px;
+}
+
+.speech-bubble-two {
+	position: relative;
+	background: #3fa9f5;
+    border-radius: .4em;
+    max-width: 350px;
+    height: 150px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.speech-bubble-two:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 36px solid transparent;
+	border-left-color: #3fa9f5;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -18px;
+	margin-right: -36px;
+}
+
+/* WORK EXPERIENCE SECTION END */
+
+
+/* GET IN TOUCH START */
+
+.get-in-touch {
+    height: 750px;
+    padding-top: 100px;
+}
+
+.contact-line {
+    height: 2px;
+    width: 70px;
+    background: #fb6470;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.contact {
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.form-controls {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+}
+
+input[type="text"], input[type="email"], input[type="button"]{
+    border: 2px solid rgb(163, 159, 159);
+    border-radius: 6px;
+    font-size: 1.25rem;
+    padding: 0.25rem 0.5rem;
+}
+
+input[type="message"] {
+    border: 2px solid rgb(163, 159, 159);
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 50px;
+}
+
+input[type="button"]{
+    border: none;
+    background: #fb6470;
+    color: white;
+    margin-top: 1.5rem;
+    width: 70%;
+    align-self: center;
+    padding: 5px;
+}
+
+label[data-label="label"]{
+    font-size: 0.75rem;
+    margin: 0 0 0 0.5rem;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 10.667px;
+}
+
+/* GET IN TOUCH END */
+
+
+/* LARGE */
+
+@media(max-width: 100vw) {
+    h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .section-intros {
+        max-width: 650px;
+    }
+
+    /* HEADER START */
+
+    .action-links li {
+        display: inline;
+        max-width: 210px;
+        margin: 0 auto;
+    }
+
+    .new-projects {
+        margin-right: 20px;
+    }
+
+    .gulp {
+        width: auto;
+        height: 50px;
+        margin-top: 100px;
+    }
+
+    /* HEADER END */
+
+    /* SKILLS START */
+
+    .skills-summary {
+        height: 700px;
+        text-align: center;
+    }
+
+    .skills-summary-intro {
+        padding: 25px 0 30px 0;
+        max-width: 580px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .skills-container {
+        display: inline-flex;
+    }
+
+    .skills-info {
+        max-width: 295px;
+    }
+
+    /* SKILLS END */
+
+    /* FIND ME START */
+
+    .find-me {
+        background: #889ea8;
+    }
+
+    .social-media-links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .find-me a {
+        color: black;
+    }
+    
+    .find-me a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* FIND ME END */
+
+    /* WORK EXPERIENCE START */
+
+    .speech-bubble-one-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 40px;
+        color: white;
+    }
+
+    .speech-bubble-two-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 40px;
+        color: white;
+    }
+
+    .speech-bubble-one, .speech-bubble-two {
+        padding: 20px;
+    }
+
+    .work-title {
+        font-size: 18px;
+    }
+
+    .work-tag {
+        font-size: 16px;
+    }
+
+    .work-time {
+        font-size: 14px;
+    }
+
+    .work-info {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    /* WORK EXPERIENCE END */
+
+    /* EDUCATION START */
+
+    .education {
+        height: 1000px;
+        background: #f4f1f4;
+        padding-top: 20px;
+    }
+
+    .education-bubble {
+        background-color: #353541;
+        max-width: 350px;
+        height: 155px;
+        border-radius: 8px;
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .education-bubble-one-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+
+    .education-bubble-two-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .education-title {
+        color: white;
+        font-size: 15.46px;
+    }
+
+    .education-time-period {
+        color: #fb6470;
+        font-size: 12.65px;
+    }
+
+    .education-site {
+        color: rgb(182, 178, 178);
+        font-size: 9.84px;
+        margin-top: 5px;
+    }
+
+    .education-school {
+        color: rgb(165, 165, 165);
+        font-size: 11.24px;
+    }
+
+    .education-info {
+        font-size: 11.24px;
+        color: white;
+        margin-top: 5px;
+    }
+
+    /* EDUCATION END */
+}
+
+/* MEDIUM */
+
+@media(max-width: 780px) {
+    h2 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .section-intros {
+        max-width: 650px;
+    }
+
+    /* HEADER START */
+
+    .action-links li {
+        display: inline;
+        max-width: 210px;
+        margin: 0 auto;
+    }
+
+    .new-projects {
+        margin-right: 20px;
+    }
+
+    .gulp {
+        width: auto;
+        height: 50px;
+        margin-top: 100px;
+    }
+
+    /* HEADER END */
+
+    /* SKILLS START */
+
+    .skills-summary {
+        height: 1080px;
+        text-align: center;
+    }
+
+    .skills-summary-intro {
+        padding: 25px 0 30px 0;
+        max-width: 580px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .skills {
+        max-width: 50%;
+    }
+
+    .skills-info {
+        max-width: 295px;
+    }
+
+    /* SKILLS END */
+
+    /* FIND ME START */
+
+    .find-me {
+        background: #889ea8;
+    }
+
+    .social-media-links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .find-me a {
+        color: black;
+    }
+    
+    .find-me a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* FIND ME END */
+
+    /* WORK EXPERIENCE START */
+
+    .speech-bubble-one-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 40px;
+        color: white;
+    }
+
+    .speech-bubble-two-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 40px;
+        color: white;
+    }
+
+    .speech-bubble-one, .speech-bubble-two {
+        padding: 20px;
+    }
+
+    .work-title {
+        font-size: 18px;
+    }
+
+    .work-tag {
+        font-size: 16px;
+    }
+
+    .work-time {
+        font-size: 14px;
+    }
+
+    .work-info {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    /* WORK EXPERIENCE END */
+
+    /* EDUCATION START */
+
+    .education {
+        height: 1000px;
+        background: #f4f1f4;
+        padding-top: 20px;
+    }
+
+    .education-bubble {
+        background-color: #353541;
+        max-width: 350px;
+        height: 155px;
+        border-radius: 8px;
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .education-bubble-one-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+
+    .education-bubble-two-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .education-title {
+        color: white;
+        font-size: 15.46px;
+    }
+
+    .education-time-period {
+        color: #fb6470;
+        font-size: 12.65px;
+    }
+
+    .education-site {
+        color: rgb(182, 178, 178);
+        font-size: 9.84px;
+        margin-top: 5px;
+    }
+
+    .education-school {
+        color: rgb(165, 165, 165);
+        font-size: 11.24px;
+    }
+
+    .education-info {
+        font-size: 11.24px;
+        color: white;
+        margin-top: 5px;
+    }
+
+    /* EDUCATION END */
+}
+
+/* SMALL */
+
+@media(max-width: 480px) {
+    h2 {
+       font-size: 22px;
+       text-align: center;
+    }
+
+    .line {
+        height: 2px;
+        width: 70px;
+        background: #fb6470;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    /* HEADER START */
+
+    .new-projects, .awards {
+        display: block;
+        max-width: 210px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .gulp {
+        width: auto;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    /* HEADER END */
+
+    /* SKILLS START */
+
+    .skills-summary-intro {
+        display: none;
+    }
+
+    .skills-container {
+        display: inline-block;
+    }
+    
+    .skills-summary li h3 {
+        display: none;
+    }
+
+    .skills-summary li p {
+        display: none;
+    }
+
+    /* SKILLS END */
+
+    /* FIND ME START */
+
+    .find-me {
+        background: white;
+    }
+
+    .find-me li {
+        flex: 33%;
+    }
+
+    .find-me a {
+        color: black;
+    }
+    
+    .find-me a:hover {
+        color: #32bec7;
+        text-decoration: none;
+    }
+
+    /* FIND ME END */
+
+    /* WORK EXPERIENCE START */
+
+    .speech-bubble-one-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
+
+    .speech-bubble-two-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 40px;
+    }
+
+    .speech-bubble-one, .speech-bubble-two {
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+    .work-title {
+        font-size: 18px;
+    }
+
+    .work-tag {
+        font-size: 16px;
+    }
+
+    .work-time {
+        font-size: 14px;
+    }
+
+    .work-info {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    /* WORK EXPERIENCE END */
+
+    .education {
+        height: 1150px;
+        background: #f4f1f4;
+        padding-top: 20px;
+    }
+
+    .education-bubble {
+        margin: 0 auto;
+        margin-bottom: 35px;
+        background-color: #353541;
+        max-width: 442px;
+        height: 190px;
+        border-radius: 8px;
+    }
+
+    .education-bubble-one-container, .education-bubble-two-container {
+        margin: 0 auto;
+    }
+
+    .education-title {
+        color: white;
+        font-size: 18px;
+    }
+
+    .education-time-period {
+        color: #fb6470;
+        font-size: 16px;
+    }
+
+    .education-site {
+        color: rgb(182, 178, 178);
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .education-school {
+        color: rgb(165, 165, 165);
+        font-size: 14px;
+    }
+
+    .education-info {
+        font-size: 14px;
+        color: white;
+        margin-top: 7px;
+    }
+}
+

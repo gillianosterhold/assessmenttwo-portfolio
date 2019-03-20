@@ -1,0 +1,38 @@
+.menu-panel {
+  position: fixed;
+  display: block;
+  width: 35%;
+  top: -255px;
+  left: 0;
+  padding: 25px 0;
+  background-color: rgb(31, 30, 30);
+  z-index: 5;
+}
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+.mobile-link {
+  padding: 0.5rem 0;
+  align-self: center;
+}
+
+.mobile-links li {
+  border-bottom: 1px solid #fb6470;
+}
+ 
+
+.mobile-link a,
+.mobile-link a:link,
+.mobile-link a:visited,
+.mobile-link a:active {
+  color: white;
+}
+
+.mobile-link a:hover {
+  color: black;
+}
